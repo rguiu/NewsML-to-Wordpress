@@ -14,7 +14,7 @@ IMAGES_HEIGHT = 100
 
 #Wordpress data
 WP_USER_ID = 2
-WP_STATUS = "draft"
+WP_STATUS = "publish" # draft can be a better alternative
 WP_PING = "open"
 WP_COMMENTS = "open"
 

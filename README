@@ -1,0 +1,9 @@
+Very basic script for transferiung NewsML files into wordpress.
+
+It does take sets of news + image (I was targetting a very specific case). It crops the image, moves it to the local directory where the images uploads for wordpress are ( it needs to run in the same box than wordpress is running, or just ftp the images to the wordpress uploads directory I will add an ftp automatic option in the future). 
+
+The post can ve saved as Draft or Publish. I guess schedulled will work too. The date, for now is "now", instead the date of the news file. It doesnt handle duplicates yet.
+
+I am not sure if I will have time for all these improvements, this is more a starting point for someone trying to achieve similar objective.
+
+config.rb has the configuration, size for images, db configuration and post configurations.

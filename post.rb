@@ -75,7 +75,7 @@ class Post
     self.modified =  parent.modified
     self.modified_gmt =  parent.modified_gmt
     self.parent =  parent.id
-    self.type = 'inherit'
+    self.type = 'attachment'
     self.title = "image"
     self.body = ''
     self.mime_type = "image/#{IMAGES_FILE_EXTENSION}"
